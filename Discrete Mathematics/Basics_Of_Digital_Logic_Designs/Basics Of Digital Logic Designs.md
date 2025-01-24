@@ -24,11 +24,14 @@
 
 ### Symbol
 - This is denoted by **~**:
-![](Basics_Of_Digital_Logic_Designs\img\NOT.png)
+![](/Basics_Of_Digital_Logic_Designs/img/NOT.png)
 
 ### Truth Table
 Check [NOT Truth Table File](/Basics_Of_Digital_Logic_Designs/Truth_Tables/NOT.csv)
-<<[/Basics_Of_Digital_Logic_Designs/Truth_Tables/NOT.csv]
+"A","Y (NOT A)"
+"0","1"
+"1","0"
+
 
 ## AND gate
 - The output is **1** if and only **if both input are 1**
@@ -36,11 +39,15 @@ Check [NOT Truth Table File](/Basics_Of_Digital_Logic_Designs/Truth_Tables/NOT.c
 
 ### Symbol
 The symbol for the AND gate is represented as **(p ʌ q)**:
-![](Basics_Of_Digital_Logic_Designs\img\AND.jpeg)
+![](/Basics_Of_Digital_Logic_Designs/img/AND.jpeg)
 
 ### Truth Table
 Check [AND Truth Table File](/Basics_Of_Digital_Logic_Designs/Truth_Tables/AND.csv)
-<<[/Basics_Of_Digital_Logic_Designs/Truth_Tables/AND.csv]
+"A","B","Y (A AND B)"
+"0","0","0"
+"0","1","0"
+"1","0","0"
+"1","1","1"
 
 
 ## NAND gate
@@ -49,11 +56,16 @@ Check [AND Truth Table File](/Basics_Of_Digital_Logic_Designs/Truth_Tables/AND.c
 
 ### Symbol
 The symbol for the NAND gate is represented as **~(p ʌ q)**:
-![](Basics_Of_Digital_Logic_Designs\img\NAND.jpeg)
+![](/Basics_Of_Digital_Logic_Designs/img/NAND.jpeg)
 
 ### Truth Table
 Check [NAND Truth Table File](/Basics_Of_Digital_Logic_Designs/Truth_Tables/NAND.csv)
-<<[/Basics_Of_Digital_Logic_Designs/Truth_Tables/NAND.csv]
+"A","B","Y (A NAND B)"
+"0","0","1"
+"0","1","1"
+"1","0","1"
+"1","1","0"
+
 
 
 ## OR gate
@@ -62,11 +74,15 @@ Check [NAND Truth Table File](/Basics_Of_Digital_Logic_Designs/Truth_Tables/NAND
 
 ### Symbol
 The symbol for the OR gate is represented as **(p V q)**:
-![](Basics_Of_Digital_Logic_Designs\img\OR.jpeg)
+![](/Basics_Of_Digital_Logic_Designs/img/OR.jpeg)
 
 ### Truth Table
 Check [OR Truth Table File](/Basics_Of_Digital_Logic_Designs/Truth_Tables/OR.csv)
-<<[/Basics_Of_Digital_Logic_Designs/Truth_Tables/OR.csv]
+"A","B","Y (A OR B)"
+"0","0","0"
+"0","1","1"
+"1","0","1"
+"1","1","1"
 
 
 ## NOR gate
@@ -75,11 +91,15 @@ Check [OR Truth Table File](/Basics_Of_Digital_Logic_Designs/Truth_Tables/OR.csv
 
 ### Symbol
 The symbol for the NOR gate is represented as **~(p V q) or p ↓ q (↓ is called Pierce Arrow)**:
-![](Basics_Of_Digital_Logic_Designs\img\NOR.jpeg)
+![](/Basics_Of_Digital_Logic_Designs/img/NOR.jpeg)
 
 ### Truth Table
 Check [NOR Truth Table File](/Basics_Of_Digital_Logic_Designs/Truth_Tables/AND.csv)
-<<[/Basics_Of_Digital_Logic_Designs/Truth_Tables/NOR.csv]
+"A","B","Y (A NOR B)"
+"0","0","1"
+"0","1","0"
+"1","0","0"
+"1","1","0"
 
 ## XOR gate
 - The output is **1** if and only **if exactly ONE input is 1**
@@ -87,8 +107,12 @@ Check [NOR Truth Table File](/Basics_Of_Digital_Logic_Designs/Truth_Tables/AND.c
 
 ### Symbol
 The symbol for the XOR gate is represented as **(p ⊕ q)**:
-![](Basics_Of_Digital_Logic_Designs\img\XOR.jpeg)
+![](/Basics_Of_Digital_Logic_Designs/img/XOR.jpeg)
 
 ### Truth Table
 Check [XOR Truth Table File](/Basics_Of_Digital_Logic_Designs/Truth_Tables/XOR.csv)
-<<[/Basics_Of_Digital_Logic_Designs/Truth_Tables/XOR.csv]
+"A","B","Y (A XOR B)"
+"0","0","0"
+"0","1","1"
+"1","0","1"
+"1","1","0"
