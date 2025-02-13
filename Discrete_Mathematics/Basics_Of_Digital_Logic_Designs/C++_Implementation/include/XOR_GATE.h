@@ -7,7 +7,7 @@
 class XOR_GATE : public Gates
 {
     public:
-        is_XOR_GATE(int x, int y);
+        int is_XOR_GATE(int x, int y);
 
     protected:
 

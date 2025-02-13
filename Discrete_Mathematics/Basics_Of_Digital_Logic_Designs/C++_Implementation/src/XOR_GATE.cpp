@@ -22,3 +22,4 @@ int XOR_GATE::is_XOR_GATE(int x, int y)
         cout<< "Input must 0 or 1\n";
     }
 }
+
